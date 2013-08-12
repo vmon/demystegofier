@@ -1,0 +1,69 @@
+*.py[co]
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+
+#Translations
+*.mo
+
+#Mr Developer
+.mr.developer.cfg
+
+#config
+src/config/train2ban.cfg
+
+# backup
+*~
+\#*\#
+.\#*\#
+.\#*
+
+src/*~
+src/\#*\#
+src/.\#*\#
+src/.\#*
+src/*.orig
+src/*.prof
+
+src/features/*~
+src/features/\#*\#
+src/features/.\#*\#
+src/features/.\#*
+src/features/*.orig
+
+src/test/*~
+src/test/\#*\#
+src/test/.\#*\#
+src/test/.\#*
+src/test/*.orig
+src/test/l2b_pickle*
+
+# OS generated files 
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+#not part of this package
+dpkt-1.8
